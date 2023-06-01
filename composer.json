@@ -1,0 +1,22 @@
+{
+    "name": "tualo/whiteboard",
+    "description": "tualo - kundentouren planung",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Hoffmann",
+            "email": "thomas.hoffmann@tualo.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tualo\\Office\\Whiteboard\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "phpseclib/phpseclib": "^3.0"
+    }
+}
